@@ -8,7 +8,7 @@
       />
       <div class="info">
         <div class="location">{{ location }}</div>
-        <div class="temp">{{ data.current.temp }}°</div>
+        <div class="temp">{{ Math.round(data.current.temp) }}°</div>
         <div class="humidity">Humidity: {{ data.current.humidity }}%</div>
         <div class="uvi">UVI: {{ data.current.uvi }}%</div>
         <div class="wind">
